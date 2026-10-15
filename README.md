@@ -18,7 +18,7 @@ Relevance Judges than Prompted LLMs".
 
 The `data/processed/` directory contains processed relevance judgments from a variety of models:
 
-- **`trecdl-llm-qrels.parquet`**: TREC Deep Learning track relevance judgments produced by GPT-4o; includes different prompting strategies, indicated in the `prompt` columns
+- **`predictions/`**: TREC Deep Learning track relevance judgments produced by different LLMs as indicated in the filenames; includes different prompting strategies, indicated in the `prompt` columns
 - **`trecdl-shallow-qrels-{64,128,192,256}.parquet`**: TREC Deep Learning shallow pooling relevance judgments from topic-specific adapters using different train set sizes (64, 128, 192, 256 docs)
 - **`robust04-shallow-qrels-{64,128,192,256}.parquet`**: TREC Robust 2004 shallow pooling relevance judgments from topic-specific adapters using different train set sizes (64, 128, 192, 256 docs)
 
